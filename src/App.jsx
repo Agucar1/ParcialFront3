@@ -1,14 +1,13 @@
 import './App.css'
-import Card from './Card.jsx'
+import Form from './Components/Form.jsx'
+
 
 function App() {
-  
 
   return (
     <div className='App'>
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-    <Card/>
+      <h1>Quiz de auto favorito:</h1>
+     <Form/>
     </div>
   )
   
